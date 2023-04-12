@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "second", "second\second.csproj", "{A07BD95E-CAF3-4FD9-8354-1651DAF9A111}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "parseWork", "parseWork\parseWork.csproj", "{0E2A5E6F-29E0-4DEC-94B9-3B36A1A3AE83}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A07BD95E-CAF3-4FD9-8354-1651DAF9A111}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A07BD95E-CAF3-4FD9-8354-1651DAF9A111}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A07BD95E-CAF3-4FD9-8354-1651DAF9A111}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E2A5E6F-29E0-4DEC-94B9-3B36A1A3AE83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E2A5E6F-29E0-4DEC-94B9-3B36A1A3AE83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E2A5E6F-29E0-4DEC-94B9-3B36A1A3AE83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E2A5E6F-29E0-4DEC-94B9-3B36A1A3AE83}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
