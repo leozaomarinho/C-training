@@ -14,7 +14,7 @@ namespace controleDeVendas
 
             string nomeClient;
             int quantVendida;
-            Boolean formaPagamento;
+            int formaPagamento;
             double valorPagamento;
             double totalVenda;
             double troco;
@@ -44,14 +44,14 @@ namespace controleDeVendas
                 Console.WriteLine("1 - Dinheiro");
                 Console.WriteLine("0 - Cartão");
 
-                formaPagamento = Boolean.Parse(Console.ReadLine());
+                formaPagamento = int.Parse(Console.ReadLine());
 
                 totalVenda = precoProd * quantVendida;
 
 
-                if (formaPagamento == true)
+                if (formaPagamento == 1)
                 {
-                    Console.WriteLine("Digite o valor que utilizará para pagar:");
+                    Console.WriteLine($"O valor da compra é de {totalVenda} R$ ,Digite o valor que utilizará para pagar:");
                     valorPagamento = double.Parse(Console.ReadLine());
 
                     if (valorPagamento > totalVenda)
@@ -62,9 +62,12 @@ namespace controleDeVendas
                         Console.WriteLine($"O cliente possui {troco} R$ de troco.");
                     }
                 }
-                else
+                else if (formaPagamento == 0)
                 {
                     Console.WriteLine("O pagamento será no cartão, o cliente não possui troco!");
+                }
+                else {
+                    Console.WriteLine("Forma de pagamento invalida! Refaça o processo.");
                 }
             }
             else
