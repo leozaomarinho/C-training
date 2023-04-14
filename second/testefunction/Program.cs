@@ -1,9 +1,8 @@
-﻿using System;
+﻿namespace TestandoFunctions
+{
 
-
-namespace TestandoFunctions {
-   
-    class Program { 
+    class Program
+    {
         static void Main(string[] args)
         {
 
@@ -14,8 +13,8 @@ namespace TestandoFunctions {
             n1 = int.Parse(Console.ReadLine());
             Console.WriteLine("Digite o segundo valor:");
             n2 = int.Parse(Console.ReadLine());
-            
-            double resultado = Apresenta (n1,n2);
+
+            double resultado = Apresenta(n1, n2);
 
             Console.WriteLine($"O resultado é {resultado}");
 
@@ -23,12 +22,13 @@ namespace TestandoFunctions {
 
         }
 
-        static int  Apresenta(int n1,int n2) {
+        static int Apresenta(int n1, int n2)
+        {
 
             int soma = n1 + n2;
 
             return soma;
         }
     }
-    
-    }
+
+}
