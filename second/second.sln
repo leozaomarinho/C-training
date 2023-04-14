@@ -9,9 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "parseWork", "parseWork\pars
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "parOuImpar", "parOuImpar\parOuImpar.csproj", "{904E97E7-F90E-4292-924E-E152E54FD814}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exe01Curso", "exe01Curso\exe01Curso.csproj", "{F1E95493-954A-4B4D-B827-5C7C3468805C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "exe01Curso", "exe01Curso\exe01Curso.csproj", "{F1E95493-954A-4B4D-B827-5C7C3468805C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "controleDeVendas", "controleDeVendas\controleDeVendas.csproj", "{BC022358-E714-42E0-8EA3-FBFC40FA775D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "controleDeVendas", "controleDeVendas\controleDeVendas.csproj", "{BC022358-E714-42E0-8EA3-FBFC40FA775D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sistemaDeEstacionamento", "sistemaDeEstacionamento\sistemaDeEstacionamento.csproj", "{7E36D087-E2E0-40EF-B2C8-AB3FFFAD3527}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exeFix02", "exeFix02\exeFix02.csproj", "{B0F6E731-7821-4D40-8723-5749CFC16920}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{BC022358-E714-42E0-8EA3-FBFC40FA775D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC022358-E714-42E0-8EA3-FBFC40FA775D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC022358-E714-42E0-8EA3-FBFC40FA775D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E36D087-E2E0-40EF-B2C8-AB3FFFAD3527}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E36D087-E2E0-40EF-B2C8-AB3FFFAD3527}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E36D087-E2E0-40EF-B2C8-AB3FFFAD3527}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E36D087-E2E0-40EF-B2C8-AB3FFFAD3527}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0F6E731-7821-4D40-8723-5749CFC16920}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0F6E731-7821-4D40-8723-5749CFC16920}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0F6E731-7821-4D40-8723-5749CFC16920}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0F6E731-7821-4D40-8723-5749CFC16920}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
