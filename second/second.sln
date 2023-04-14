@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testefunction", "testefunct
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "loops", "loops\loops.csproj", "{2797CB0E-5EAE-4E95-B807-CE4269E57CA8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "while02", "while02\while02.csproj", "{AA8DEE9F-7B0E-4B2E-8208-FFCEE6997695}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{2797CB0E-5EAE-4E95-B807-CE4269E57CA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2797CB0E-5EAE-4E95-B807-CE4269E57CA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2797CB0E-5EAE-4E95-B807-CE4269E57CA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA8DEE9F-7B0E-4B2E-8208-FFCEE6997695}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA8DEE9F-7B0E-4B2E-8208-FFCEE6997695}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA8DEE9F-7B0E-4B2E-8208-FFCEE6997695}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA8DEE9F-7B0E-4B2E-8208-FFCEE6997695}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
