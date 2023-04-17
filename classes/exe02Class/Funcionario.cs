@@ -7,5 +7,7 @@ namespace exe02Class
         public double Salario;
 
 
+       
+
     }
 }
