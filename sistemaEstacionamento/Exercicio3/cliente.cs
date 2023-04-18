@@ -6,17 +6,11 @@ using System.Threading.Tasks;
 
 namespace Exercicio3
 {
-     class cliente
+     public class cliente
     {
         public int IdCliente;
         public string Nome;
         public string Cpf;
-
-        public cadastrarCliente() { 
-        
-
-
-        }
 
 
     }
