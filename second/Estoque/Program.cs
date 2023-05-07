@@ -24,7 +24,16 @@
 
                     estoqueAtual += quantAdd;
 
-                    Console.WriteLine("Items adicionados ao estoque");
+                    Console.WriteLine($"{quantAdd} Items adicionados ao estoque");
+                }
+                else if (opcao ==2)
+                {
+                    Console.Write("Quantos items você deseja remover do estoque?");
+                    quantRemove = int.Parse(Console.ReadLine());
+
+                    estoqueAtual -= quantRemove;
+
+                    Console.WriteLine($"Você removeu {quantRemove} items do estoque.");
                 }
 
             }
