@@ -25,6 +25,7 @@
                     estoqueAtual += quantAdd;
 
                     Console.WriteLine($"{quantAdd} Items adicionados ao estoque");
+                    continue;
                 }
                 else if (opcao ==2)
                 {
@@ -34,14 +35,17 @@
                     estoqueAtual -= quantRemove;
 
                     Console.WriteLine($"Você removeu {quantRemove} items do estoque.");
+                    continue;
                 }
                 else if(opcao ==3)
                 {
                     Console.WriteLine($"Seu estoque atual possui {estoqueAtual} items");
+                    continue;
                 }
                 else
                 {
                     Console.WriteLine("Programa finalizado!");
+                    Environment.Exit(0);
                 }
 
             }
