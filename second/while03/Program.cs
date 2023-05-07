@@ -1,17 +1,16 @@
-﻿using System;
+﻿namespace While3
+{
 
+    class Program
+    {
 
-namespace While3 {
-
-    class Program { 
-    
         static void Main(string[] args)
         {
             string nome, cpf, marca, modelo, placa;
-            double valMinuto,valTotal;
+            double valMinuto, valTotal;
             int menu, idCliente, clienteIdVeic;
-            
-            for(int i = 0; i != 0; i++)
+
+            for (int i = 0; i != 0; i++)
             {
 
                 Console.WriteLine("O que você deseja fazer?:");
@@ -21,17 +20,18 @@ namespace While3 {
                 Console.WriteLine("4 - Registrar saida");
                 Console.WriteLine("0 - Sair");
 
-                if (i == 1) {
+                if (i == 1)
+                {
 
 
 
                     Console.WriteLine("Digite o nome do cliente:");
-                   nome = Console.ReadLine();
+                    nome = Console.ReadLine();
 
                     idCliente = i;
 
                     Console.WriteLine("Digite o CPF do cliente:");
-                    cpf =Console.ReadLine() ;
+                    cpf = Console.ReadLine();
 
                     Console.WriteLine("Cliente cadastrado com sucesso!");
 
@@ -40,18 +40,18 @@ namespace While3 {
 
                 else if (i == 2)
                 {
-                     clienteIdVeic = idCliente;
+                    clienteIdVeic = idCliente;
                     Console.WriteLine();
 
                 }
 
 
             }
-                
-            
-            
-            }
+
+
 
         }
+
     }
+}
 

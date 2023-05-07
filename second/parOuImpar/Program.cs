@@ -1,7 +1,4 @@
-﻿using System;
-
-
-namespace ParOuImpar
+﻿namespace ParOuImpar
 {
 
     class Program
@@ -15,13 +12,13 @@ namespace ParOuImpar
             if (a % 2 == 0)
             {
                 Console.WriteLine($"{a} é par!");
-                    }
+            }
             else
             {
                 Console.WriteLine($"{a} é impar!");
             }
 
-            if(b%2 == 0)
+            if (b % 2 == 0)
             {
                 Console.WriteLine($"{b} é par!");
             }

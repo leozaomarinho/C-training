@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Atividade01
+﻿namespace Atividade01
 {
     class Program
     {
@@ -33,13 +31,14 @@ namespace Atividade01
             Console.WriteLine("Digite o endereço do cliente: ");
             endereco = Console.ReadLine();
 
-            valorTotal =(double) valorProd * quantProd;
+            valorTotal = (double)valorProd * quantProd;
 
             Console.WriteLine($"O cliente {nomeClient} escolheu {quantProd} unidades do produto {nomeProd} e deve pagar {valorTotal}.");
             Console.WriteLine("Efetue o pagamento: ");
             pagamento = double.Parse(Console.ReadLine());
 
-            if (pagamento > valorTotal) {
+            if (pagamento > valorTotal)
+            {
                 troco = pagamento - valorTotal;
 
                 Console.WriteLine($"Você possui troco, no valor de {troco}, obrigaod e volte sempre!.");

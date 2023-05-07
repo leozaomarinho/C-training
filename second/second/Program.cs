@@ -1,7 +1,4 @@
-﻿using System;
-
-
-namespace Projeto02
+﻿namespace Projeto02
 {
 
     public class Program
@@ -11,7 +8,7 @@ namespace Projeto02
 
             string c = "ABC";
             string d = "DEF";
-            
+
 
             double a = 5;
             double b = 7;

@@ -1,9 +1,10 @@
-﻿using System;
-using System.Globalization;
+﻿using System.Globalization;
 
-namespace exercicio{
-    class Program { 
-        
+namespace exercicio
+{
+    class Program
+    {
+
         static void Main(string[] args)
         {
             string nome;
@@ -23,7 +24,7 @@ namespace exercicio{
             Console.WriteLine("Entre com seu ultimo nome, idade e altura (tudo na mesma linha):");
             vetor = Console.ReadLine().Split(' ');
 
-            Console.WriteLine("----------- SAIDA -------------" );
+            Console.WriteLine("----------- SAIDA -------------");
             Console.WriteLine(nome);
             Console.WriteLine(quartos);
             Console.WriteLine(vetor[0]);
@@ -33,7 +34,7 @@ namespace exercicio{
 
 
         }
-    
+
     }
 
 }

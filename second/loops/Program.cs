@@ -1,9 +1,8 @@
-﻿using System;
+﻿namespace Loops
+{
 
-
-namespace Loops {
-
-    class Program { 
+    class Program
+    {
         static void Main(string[] args)
         {
 
@@ -24,7 +23,7 @@ namespace Loops {
 
 
         }
-    
-    
+
+
     }
 }
