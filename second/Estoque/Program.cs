@@ -35,6 +35,10 @@
 
                     Console.WriteLine($"Você removeu {quantRemove} items do estoque.");
                 }
+                else if(opcao ==3)
+                {
+                    Console.WriteLine($"Seu estoque atual possui {estoqueAtual} items");
+                }
 
             }
 
