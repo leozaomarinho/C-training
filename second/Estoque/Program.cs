@@ -39,6 +39,10 @@
                 {
                     Console.WriteLine($"Seu estoque atual possui {estoqueAtual} items");
                 }
+                else
+                {
+                    Console.WriteLine("Programa finalizado!");
+                }
 
             }
 
