@@ -5,7 +5,9 @@ VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Revisao", "Revisao\Revisao.csproj", "{835F4884-6322-49B6-9704-4DEB124E8F70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "precoTerreno", "precoTerreno\precoTerreno.csproj", "{BEEA73AA-2EC1-4174-8DBF-6186FD26D9FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "precoTerreno", "precoTerreno\precoTerreno.csproj", "{BEEA73AA-2EC1-4174-8DBF-6186FD26D9FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "atividade02", "atividade02\atividade02.csproj", "{D57F9DA8-DFF6-490F-8C70-1F71C4F2620F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{BEEA73AA-2EC1-4174-8DBF-6186FD26D9FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BEEA73AA-2EC1-4174-8DBF-6186FD26D9FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BEEA73AA-2EC1-4174-8DBF-6186FD26D9FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D57F9DA8-DFF6-490F-8C70-1F71C4F2620F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D57F9DA8-DFF6-490F-8C70-1F71C4F2620F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D57F9DA8-DFF6-490F-8C70-1F71C4F2620F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D57F9DA8-DFF6-490F-8C70-1F71C4F2620F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
