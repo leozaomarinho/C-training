@@ -7,19 +7,17 @@ namespace verifica {
     {
 
         static void Main(string[] args)
+
         {
+            Console.WriteLine("Digite 3 valores na mesma linha: ");
+            string[] vetor = Console.ReadLine().Split(' ');
 
             int num1,num2,num3;
-         
 
-            Console.WriteLine("Digite o primeiro numero:");
-            num1 = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Digite o segundo numero:");
-            num2 = int.Parse(Console.ReadLine());
-
-            Console.WriteLine("Digite o terceiro numero:");
-            num3 = int.Parse(Console.ReadLine());
+            num1 = int.Parse(vetor[0]);
+            num2 = int.Parse(vetor[1]);
+            num3 = int.Parse(vetor[2]);
 
 
                 if (num1 <= num2 && num1 <= num3)
