@@ -35,9 +35,11 @@ class URI
                 Console.WriteLine("O ponto está no quadrante nulo.");
             }
 
-            x = int.Parse(Console.ReadLine());
-            y = int.Parse(Console.ReadLine());
-        }
+           string[] valores = Console.ReadLine().Split(' ');
+            x = int.Parse(valores[0]);
+            y = int.Parse(valores[1]);
+        };
+
         Console.WriteLine("Um dos pontos esta no quadrante Nulo!");
 
 
