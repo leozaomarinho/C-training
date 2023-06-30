@@ -2,11 +2,12 @@
 using System.ComponentModel.Design;
 using System.Globalization;
 
-class URI {
+class URI
+{
 
     static void Main(string[] args)
     {
-        int alcool=0, gasolina=0, diesel= 0, opcao, cont = 0;
+        int alcool = 0, gasolina = 0, diesel = 0, opcao, cont = 0;
 
         Console.WriteLine("Digite qual opção você deseja:");
         Console.WriteLine("1 - Alcool");
@@ -15,23 +16,25 @@ class URI {
         Console.WriteLine("4 - Sair");
         opcao = int.Parse(Console.ReadLine());
 
-        while (opcao != 4) { 
-        
-            if (opcao == 1) {
+        while (opcao != 4)
+        {
 
-                alcool = alcool+ 1;
-                cont = cont+ 1;
-            
+            if (opcao == 1)
+            {
+
+                alcool += 1;
+                cont += 1;
+
             }
             else if (opcao == 2)
             {
-                gasolina = gasolina+ 1;
-                cont= cont+ 1;
+                gasolina += 1;
+                cont += 1;
             }
             else
             {
-                diesel = diesel+ 1;
-                cont = diesel+ 1;
+                diesel += 1;
+                cont += 1;
             }
             Console.WriteLine("-------------------------------------");
             Console.WriteLine("Digite qual opção você deseja:");
@@ -42,12 +45,12 @@ class URI {
             opcao = int.Parse(Console.ReadLine());
 
         };
-       
+
         Console.WriteLine("-------------------------------------");
-        Console.WriteLine(+cont+" clientes abasteceram,muito obrigado!");
-        Console.WriteLine("- Alcool: "+alcool);
-        Console.WriteLine("- Gasolina: "+gasolina);
-        Console.WriteLine("- Diesel: "+diesel);
+        Console.WriteLine(+cont + " clientes abasteceram,muito obrigado!");
+        Console.WriteLine("- Alcool: " + alcool);
+        Console.WriteLine("- Gasolina: " + gasolina);
+        Console.WriteLine("- Diesel: " + diesel);
         Console.ReadLine();
 
 
