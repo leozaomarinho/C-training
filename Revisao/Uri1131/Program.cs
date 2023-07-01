@@ -14,7 +14,7 @@ class URI {
         while (novoGrenal == 1) {
 
             numJogos++;
-
+            Console.WriteLine("----------------------------------------------------------------------------------------------------");
             Console.WriteLine("Quem venceu o jogo: 1-Inter 2-Gremio 3-Empate");
             vit = int.Parse(Console.ReadLine());
             if (vit == 1)
@@ -40,6 +40,7 @@ class URI {
                 Console.WriteLine("Quantos gols o gremio marcou");
                 gols= int.Parse(Console.ReadLine());
                 golsGremio += gols;
+                Console.WriteLine("----------------------------------------------------------------------------------------------------");
 
             };
 
@@ -50,18 +51,19 @@ class URI {
 
         }
 
-        if (inter > gremio)
+        if (inter > gremio && inter>emp)
         {
 
             mVenc = $"Inter venceu com {inter} vitorias";
 
         }
-        else if (gremio > inter)
+        else if (gremio > inter && gremio>emp)
         {
             mVenc = $"Gremio venceu com {gremio} vitorias";
         }
         else
         {
+
             mVenc = "Não houve maior vencedor, pois o número de vitorias esta empatado.";
         }
 
