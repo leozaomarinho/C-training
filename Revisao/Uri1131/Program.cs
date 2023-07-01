@@ -66,11 +66,13 @@ class URI {
         }
 
 
-        Console.WriteLine(numJogos+" GRENAIS fizeram parte da estatistica.");
-        Console.WriteLine("O numero de vitorias do inter foi de: "+inter);
-        Console.WriteLine("O numero de vitorias do gremio foi de: "+gremio);
-        Console.WriteLine("O numero de empates foi de : "+emp);
-        Console.WriteLine("quem venceu o maior número de GRENAIS: "+mVenc);
+        Console.WriteLine("----------------------------------------------------------------------------------------------------");
+        Console.WriteLine("| "+numJogos+" GRENAIS fizeram parte da estatistica.");
+        Console.WriteLine("| O numero de vitorias do inter foi de: "+inter);
+        Console.WriteLine("| O numero de vitorias do gremio foi de: "+gremio);
+        Console.WriteLine("| O numero de empates foi de : "+emp);
+        Console.WriteLine("| quem venceu o maior número de GRENAIS: "+mVenc);
+        Console.WriteLine("----------------------------------------------------------------------------------------------------");
 
     }
 
