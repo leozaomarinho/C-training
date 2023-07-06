@@ -22,19 +22,24 @@ class Program
         Console.WriteLine("Digite os valores do vetor:");
         vet = Console.ReadLine().Split(' ');
 
-        for(int i = 0; i < N; i++)
+        Console.WriteLine("---------------------------------------------------------------------------------------------------------------------------");
+
+        for (int i = 0; i < N; i++)
         {
             vals[i] = double.Parse(vet[i],CultureInfo.InvariantCulture);
 
             soma+= (double) vals[i];
 
             media = soma / N;
+           
 
-            Console.Write(vals[i].ToString("F2",CultureInfo.InvariantCulture));
+            Console.Write(vals[i].ToString("F1",CultureInfo.InvariantCulture)+" ");
             
         }
         Console.WriteLine('\n'+soma.ToString("F2",CultureInfo.InvariantCulture));
         Console.WriteLine(media.ToString("F2", CultureInfo.InvariantCulture));
+        Console.WriteLine("---------------------------------------------------------------------------------------------------------------------------");
+
 
 
 
