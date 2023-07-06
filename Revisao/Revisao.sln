@@ -49,7 +49,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uri1074", "Uri1074\Uri1074.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "vetor", "vetor\vetor.csproj", "{8361E9CD-5391-4913-94CB-3934A3EED060}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vetorEx03", "vetorEx03\vetorEx03.csproj", "{5C9D780A-7EA2-4F14-A944-A40E5A6F972F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "vetorEx03", "vetorEx03\vetorEx03.csproj", "{5C9D780A-7EA2-4F14-A944-A40E5A6F972F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "treinoForeach", "treinoForeach\treinoForeach.csproj", "{7935A8C7-8C1E-40CE-BCCE-D591E836292D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{5C9D780A-7EA2-4F14-A944-A40E5A6F972F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C9D780A-7EA2-4F14-A944-A40E5A6F972F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C9D780A-7EA2-4F14-A944-A40E5A6F972F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7935A8C7-8C1E-40CE-BCCE-D591E836292D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7935A8C7-8C1E-40CE-BCCE-D591E836292D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7935A8C7-8C1E-40CE-BCCE-D591E836292D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7935A8C7-8C1E-40CE-BCCE-D591E836292D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
