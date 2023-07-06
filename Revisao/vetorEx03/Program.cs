@@ -28,13 +28,14 @@ class Program {
             string[] s = Console.ReadLine().Split(' ');
 
             nome[i] = s[i];
-            idade[i] = int.Parse(s[i+1],CultureInfo.InvariantCulture);
+            idade[i] = int.Parse(s[i+1]);
+            altura[i] = double.Parse(s[i + 2], CultureInfo.InvariantCulture);
 
             if (idade[i] < 16)
             {
                 menor++;
             }
-            altura[i] = double.Parse(s[i+2],CultureInfo.InvariantCulture);
+           
 
             media+=(double)idade[i];
 
@@ -43,6 +44,12 @@ class Program {
         } while (i < N);
 
         media = media / N;
+
+        menor=menor *N/ 100;
+
+        Console.WriteLine(menor.ToString("F2",CultureInfo.InvariantCulture));
+
+        Console.WriteLine(media.ToString("F2",CultureInfo.InvariantCulture));
 
 
     }
