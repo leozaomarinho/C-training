@@ -16,9 +16,9 @@ class Program
             vet[i] = Console.ReadLine();
         }
         Console.WriteLine("Nomes Digitados:");
-        for(int i = 0; i < N; i++)
+        foreach(string val in vet)
         {
-            Console.WriteLine(vet[i]);
+            Console.WriteLine(val);
         }
     }
 }
