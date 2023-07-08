@@ -31,11 +31,14 @@ class Program
 
         for(int i = 0; i < quant; i++)
         {
+            Console.WriteLine("-----------------------");
             for (int j = 0;j < 2; j++)
             {
                 Console.Write(pessoas[i, j]+' ');
+                
             }
             Console.WriteLine();
+            Console.WriteLine("-----------------------");
         }
 
 
