@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading.Channels;
 
 class Program
 {
@@ -36,11 +37,14 @@ class Program
 
                 soma += matriz[i, j];
 
+
+
                
 
            
             }
             resultado[i] = soma;
+            soma = 0;
         }
 
         for (int index = 0; index < M; index++)
@@ -49,7 +53,8 @@ class Program
         }
 
 
+        Console.WriteLine("---------Fim do programa---------");
+        Console.ReadLine();
 
-
-        }
+    }
 }
