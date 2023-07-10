@@ -11,7 +11,7 @@ class Program
         int soma=0;
         int[] resultado; 
 
-        Console.WriteLine("Digite a quantidade de linhas: ");
+        Console.WriteLine("Digite a quantidade de linhas e colunas: ");
         string[] sup = Console.ReadLine().Split(' ');
 
         M = int.Parse(sup[0]);
@@ -46,6 +46,8 @@ class Program
             resultado[i] = soma;
             soma = 0;
         }
+
+        Console.WriteLine("---------Resultado das somas---------");
 
         for (int index = 0; index < M; index++)
         {
