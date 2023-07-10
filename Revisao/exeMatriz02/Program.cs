@@ -36,22 +36,21 @@ class Program
                 matriz[i,j]= int.Parse(vet[j]);
 
                 soma += matriz[i, j];
+                //somando os elementos da linha da matriz
 
 
-
-               
-
-           
             }
             resultado[i] = soma;
+            //vetor de resultado recebendo a soma dos valores
             soma = 0;
+            //resetando o valor de soma para ele não somar ao valor anterior
         }
 
         Console.WriteLine("---------Resultado das somas---------");
 
         for (int index = 0; index < M; index++)
         {
-            Console.WriteLine(resultado[index]);
+            Console.WriteLine($"O resultado da linha {index} é: {resultado[index]}");
         }
 
 
