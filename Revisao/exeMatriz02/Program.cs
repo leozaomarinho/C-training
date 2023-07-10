@@ -7,7 +7,8 @@ class Program
         int M, N;
 
         int [,] matriz;
-        int soma = 0;
+        int soma=0;
+        int[] resultado; 
 
         Console.WriteLine("Digite a quantidade de linhas: ");
         string[] sup = Console.ReadLine().Split(' ');
@@ -17,23 +18,38 @@ class Program
 
         matriz = new int[M, N];
 
+        resultado = new int[M];
+
+
+
         for(int i =0; i <M; i++)
         {
-            for(int j = 0; j < N; j++)
+
+            Console.WriteLine("Digite os numeros inteiros na mesma linha:");
+            string[] vet = Console.ReadLine().Split(' ');
+
+            for (int j = 0; j < N; j++)
             {
-                Console.WriteLine("Digite os numeros inteiros na mesma linha:");
-                string[] vet = Console.ReadLine().Split(' ');
+               
 
                 matriz[i,j]= int.Parse(vet[j]);
 
                 soma += matriz[i, j];
 
+               
 
+           
             }
+            resultado[i] = soma;
         }
 
-        Console.WriteLine(soma);
+        for (int index = 0; index < M; index++)
+        {
+            Console.WriteLine(resultado[index]);
+        }
 
 
-    }
+
+
+        }
 }
