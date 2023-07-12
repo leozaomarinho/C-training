@@ -35,5 +35,10 @@ namespace _03poo
             Console.WriteLine($"Você adicionou {quant} unidades de {Nome} ao estoque. ");
         }
 
+        public void VerEstoque()
+        {
+            Console.WriteLine($"Você possui {Quantidade} unidades de {Nome} em estoque.");
+        }
+
     }
 }
