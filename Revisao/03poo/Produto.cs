@@ -32,13 +32,14 @@ namespace _03poo
         {
             Quantidade -= quant;
 
-            Console.WriteLine($"Você adicionou {quant} unidades de {Nome} ao estoque. ");
+            Console.WriteLine($"Você removeu {quant} unidades de {Nome} ao estoque. ");
         }
 
         public void VerEstoque()
         {
             Console.WriteLine($"Você possui {Quantidade} unidades de {Nome} em estoque.");
         }
+
 
     }
 }

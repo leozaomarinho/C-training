@@ -1,7 +1,7 @@
 ﻿using _03poo;
-using System;
 
-namespace program {
+namespace program
+{
 
     class Program
     {
@@ -23,9 +23,10 @@ namespace program {
             TV.Quantidade = int.Parse(Console.ReadLine());
 
 
-            int options =0;
+            int options = 0;
 
-            do {
+            do
+            {
                 Console.WriteLine("O que você deseja fazer:");
                 Console.WriteLine(" 0 - Ver valor total em estoque");
                 Console.WriteLine(" 1 - Adicionar produtos ao estoque");
@@ -57,7 +58,7 @@ namespace program {
                     case 2:
 
                         Console.WriteLine("Quantos produtos deseja remover do estoque:");
-                        int quantRem =int.Parse(Console.ReadLine());
+                        int quantRem = int.Parse(Console.ReadLine());
                         TV.RemoverProdutos(quantRem);
                         Console.WriteLine("----------------------------------------------------------");
 
@@ -78,7 +79,7 @@ namespace program {
                         break;
                 }
 
-            } while (options!=4);
+            } while (options != 4);
         }
     }
 }
