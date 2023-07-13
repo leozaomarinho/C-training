@@ -15,16 +15,16 @@ namespace Curso
 
             Console.WriteLine("Entre com a largura e altura do retangulo:");
             Console.Write("Largura :");
-            x.Largura = double.Parse(Console.ReadLine());
+            x.Largura = double.Parse(Console.ReadLine(),CultureInfo.InvariantCulture);
             Console.Write("Altura :");
-            x.Altura = double.Parse(Console.ReadLine());
+            x.Altura = double.Parse(Console.ReadLine(),CultureInfo.InvariantCulture);
 
 
-            Console.WriteLine($"AREA = {x.Area()}");
+            Console.WriteLine($"AREA = {x.Area().ToString("F2", CultureInfo.InvariantCulture)}");
 
-            Console.WriteLine($"PERIMETRO = {x.Perimetro()}");
+            Console.WriteLine($"PERIMETRO = {x.Perimetro().ToString("F2",CultureInfo.InvariantCulture)}");
 
-            Console.WriteLine($"DIAGONAL = {x.Diagonal()}");
+            Console.WriteLine($"DIAGONAL = {x.Diagonal().ToString("F2",CultureInfo.InvariantCulture)}");
 
 
         }
