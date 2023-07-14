@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -28,7 +29,7 @@ namespace _05poo
 
         public override string ToString()
         {
-            return $"Dados atualizados: {Nome}, $ {SalarioLiquido()}";
+            return $"Dados atualizados: {Nome}, $ {SalarioLiquido().ToString("F2",CultureInfo.InvariantCulture)}";
         }
     }
 }
