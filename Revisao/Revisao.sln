@@ -71,7 +71,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04poo", "04poo\04poo.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05poo", "05poo\05poo.csproj", "{A899A716-E352-4BE1-83E5-9D2A2054463A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06poo", "06poo\06poo.csproj", "{D4E81B01-47AD-49CC-A0B6-50235F47205C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06poo", "06poo\06poo.csproj", "{D4E81B01-47AD-49CC-A0B6-50235F47205C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estoque", "Estoque\Estoque.csproj", "{F592BA92-605F-4855-8609-212CCC49E3F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -219,6 +221,10 @@ Global
 		{D4E81B01-47AD-49CC-A0B6-50235F47205C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4E81B01-47AD-49CC-A0B6-50235F47205C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4E81B01-47AD-49CC-A0B6-50235F47205C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F592BA92-605F-4855-8609-212CCC49E3F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F592BA92-605F-4855-8609-212CCC49E3F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F592BA92-605F-4855-8609-212CCC49E3F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F592BA92-605F-4855-8609-212CCC49E3F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
