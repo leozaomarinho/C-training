@@ -8,6 +8,14 @@ namespace Estoque
 {
     internal class Produto
     {
-        public string[,] produto;
+        public string Nome;
+        public double Valor;
+        public int Quantidade;
+
+        public void Cadastro()
+        {
+
+        }
+
     }
 }
