@@ -7,16 +7,14 @@ namespace program
     {
         static void Main(string[] args)
         {
-            Produto p;
+            int opcao;
+            Console.WriteLine("O que você deseja fazer: ");
+            Console.WriteLine("1 - Cadastrar produtos.");
+            Console.WriteLine("2 - Remover produtos.");
+            Console.WriteLine("3 - Ver Estoque.");
+            Console.WriteLine("0 - Sair.");
 
-            int i = 0;
-
-            p = new string[i];
-
-            while (i < 3) {
-
-                Console.Write("Digite o nome do produto:");
-            }
+            switch(opcao)
         }
     }
 }
