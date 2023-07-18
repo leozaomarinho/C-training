@@ -13,6 +13,7 @@ namespace program
 
             do
             {
+                Console.WriteLine("------ Bem vindos ao Sistema de Estoque -------------------------");
                 Console.WriteLine("O que você deseja fazer: ");
                 Console.WriteLine("1 - Cadastrar produtos.");
                 Console.WriteLine("2 - Remover produtos.");

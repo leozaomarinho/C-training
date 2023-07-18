@@ -32,10 +32,21 @@ namespace Estoque
         public void ListarProdutos()
             //utilizamos um loop for para imprimir os itens da matriz utilizando o Total de produtos cadastrados como index
         {
-            for (int i = 0; i < TotalProdutos; i++)
+
+            if (TotalProdutos == 0)
             {
-                Console.WriteLine($"| Produto: {Produtos[i,0]} | Valor do produto: {Produtos[i,1]} | Quantidade do produto: {Produtos[i,2]} ");
-                Console.WriteLine("------------------------------------------------------------------------------------------------------------------");
+                Console.WriteLine("Não há produtos cadastrados no estoque!");
+            }
+
+            else
+            {
+                for (int i = 0; i < TotalProdutos; i++)
+                {
+
+                    Console.WriteLine($"| Produto: {Produtos[i, 0]} | Valor do produto: {Produtos[i, 1]} | Quantidade do produto: {Produtos[i, 2]} ");
+                    Console.WriteLine("------------------------------------------------------------------------------------------------------------------");
+
+                }
             }
         }
 
