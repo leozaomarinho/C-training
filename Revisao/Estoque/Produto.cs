@@ -38,6 +38,40 @@ namespace Estoque
             }
         }
 
+        public void RemoverProdutos(string nome)
+        {
+            for(int i = 0; i < TotalProdutos; i++)
+            {
+                if (Produtos[i,0] == nome)
+                // A partir do momento em que encontramos o produto com o nome correspondente,
+                // vamos reorganizar a matriz de produtos para excluir o produto encontrado.
+                // Fazemos isso movendo todos os produtos posteriores um índice para trás.
+
+                // Começando do produto encontrado, percorremos todos os produtos subsequentes
+                // até o penúltimo produto na matriz.
+                {
+                    for (int j =0; j<TotalProdutos - 1; j++)
+                    // Movemos cada atributo do produto posterior para a posição atual do produto.
+                    {
+                        Produtos[j,0] = Produtos[j+1,0];
+                        Produtos[j,1] = Produtos[j+1,1];
+                        Produtos[j, 2] = Produtos[j+1,2];
+                    }
+                    // Agora, definimos os atributos do último produto na matriz como nulos,
+                    // já que o último produto foi movido para a posição anterior.
+                    Produtos[TotalProdutos - 1, 0] = null;
+                    Produtos[TotalProdutos - 1, 1] = null;
+                    Produtos[TotalProdutos - 1, 2] = null;
+
+                    TotalProdutos--;
+
+                    Console.WriteLine("Produto Removido com sucesso!");
+                    break;
+                }
+            }
+        }
+
+
         public override string ToString()
         {
             return $"Nome : {Produtos[TotalProdutos,0]}, Valor do produto: {Produtos[TotalProdutos,1]}, Quantidade do produto: {Produtos[TotalProdutos,2]}";

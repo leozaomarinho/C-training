@@ -42,14 +42,24 @@ namespace program
 
                         Console.WriteLine("-----------------------------------------------------------------");
                         Console.WriteLine("Produto cadastrado com sucesso!");
+                        Console.WriteLine($"Produto : {nome} \nValor : {valor}\nQuantidade : {quant}");
 
                         Console.WriteLine("-----------------------------------------------------------------");
 
 
                         break;
+                    case 2:
+
+                        Console.WriteLine("Digite o nome do produto a ser removido:"); 
+                        string prodRemover = Console.ReadLine();
+
+                        produto.RemoverProdutos(prodRemover);
+
+                        break;
                     case 3:
                         Console.WriteLine("-----------------------------------------------------------------");
                         Console.WriteLine("Você escolheu listar os produtos:");
+                        Console.WriteLine("---------- Lista de Produtos ------------------------------------");
                         produto.ListarProdutos();
                         Console.WriteLine("-----------------------------------------------------------------");
                         break;
