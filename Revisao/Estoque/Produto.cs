@@ -34,7 +34,8 @@ namespace Estoque
         {
             for (int i = 0; i < TotalProdutos; i++)
             {
-                Console.WriteLine($"| Produto: {Produtos[i,0]}, Valor do produto: {Produtos[i,1]}, Quantidade do produto: {Produtos[i,2]} |");
+                Console.WriteLine($"| Produto: {Produtos[i,0]} | Valor do produto: {Produtos[i,1]} | Quantidade do produto: {Produtos[i,2]} ");
+                Console.WriteLine("------------------------------------------------------------------------------------------------------------------");
             }
         }
 
