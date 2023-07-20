@@ -32,6 +32,43 @@ namespace Curso
             {
                 cliente = new ContaBancaria(numConta, nomeTitular);
             }
+
+            Console.WriteLine(cliente);
+            int opcao = 0;
+
+            do
+                {
+                    Console.WriteLine("O que você deseja fazer?");
+                    Console.WriteLine("0 - Sair");
+                    Console.WriteLine("1 - Realizar um deposito");
+                    Console.WriteLine("2 - Realizar um Saque");
+                opcao = int.Parse(Console.ReadLine());
+
+                if(opcao == 1)
+                {
+                    double valor;
+
+                    Console.Write("Digite o valor a ser depositado:");
+                    valor = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+                    cliente.Deposito(valor);
+                    Console.WriteLine(cliente);
+                }
+                else if (opcao ==2) {
+
+                    double valor;
+
+                    Console.Write("Digite o valor do saque a ser realizado:");
+                    valor = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+                    cliente.Saque(valor);
+                    Console.WriteLine(cliente);
+                }
+                else
+                {
+                    Console.WriteLine("Você escolheu sair!");
+                }
+
+                }while (opcao!=0) ;
             
             
 
