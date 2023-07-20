@@ -35,7 +35,8 @@ namespace appBanco
     public void Saque(double valor)
     {
 
-        this.SaldoInicial -= valor;
+            this.SaldoInicial = SaldoInicial -5;
+              this.SaldoInicial  -= valor;
 
     }
 

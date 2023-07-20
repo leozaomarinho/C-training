@@ -21,7 +21,7 @@ namespace Curso
             Console.WriteLine("Havera deposito inicial (s/n)?");
             string opDeposito = Console.ReadLine();
 
-            if (opDeposito == "s") {
+            if (opDeposito == "s" || opDeposito == "S") {
 
                 Console.Write("Entre com o valor do deposito incial:");
                 saldoInicial = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
