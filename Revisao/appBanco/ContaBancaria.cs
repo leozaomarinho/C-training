@@ -16,7 +16,7 @@ namespace appBanco
         public void CriarConta(int numConta,string NomeTitular,double SaldoInicial)
         {
 
-            if (NumConta <4)
+            if ()
             {
                 this.NumConta = numConta;
 
@@ -30,12 +30,13 @@ namespace appBanco
                     this.SaldoInicial = 0;
                 }
 
+                this.NomeTitular = NomeTitular;
+
 
             }
             else
             {
                 Console.WriteLine("A conta deve possuir 4 digitos! Refaça o processo");
-                break;
             }
 
             
