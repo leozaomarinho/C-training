@@ -9,7 +9,7 @@ namespace Curso
     {
         static void Main(string[] args)
         {
-            ContaBancaria cliente = new ContaBancaria();
+            ContaBancaria cliente;
             double saldoInicial = 0;
 
             Console.Write("Entre com o número da conta:");
@@ -25,9 +25,12 @@ namespace Curso
 
                 Console.Write("Entre com o valor do deposito incial:");
                 saldoInicial = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
             }
+
+            cliente = new ContaBancaria(numConta, nomeTitular, saldoInicial);
             
-            cliente.CriarConta(numConta, nomeTitular, saldoInicial);
+            
 
 
 

@@ -9,30 +9,42 @@ namespace appBanco
 {
     internal class ContaBancaria
     {
-        private int NumConta;
-        private string NomeTitular;
-        private double SaldoInicial;
+        public int NumConta { get; private set; }
+        public string NomeTitular { get; set; }
+        public double SaldoInicial { get; private set; };
 
-       
-        public void Deposito(double valor)
+        public ContaBancaria(int numConta, string nomeTitular)
         {
-            this.SaldoInicial += valor;
+            NumConta = numConta;
+            NomeTitular = nomeTitular;
+            SaldoInicial = 0;
         }
 
-        public void Saque(double valor)
-        {
+        public ContaBancaria(int numConta, string nomeTitular, double saldoInicial) :this(numConta,nomeTitular){
 
-            this.SaldoInicial -= valor;
+            SaldoInicial = saldoInicial;
 
         }
 
+    public void Deposito(double valor)
+    {
+        this.SaldoInicial += valor;
+    }
 
-        public override string ToString()
-        {
-            return $"Dados Atualizados:\nConta {NumConta}, Titular: {NomeTitular}, Saldo: {SaldoInicial}";
-        }
+    public void Saque(double valor)
+    {
+
+        this.SaldoInicial -= valor;
 
     }
+
+
+    public override string ToString()
+    {
+        return $"Dados Atualizados:\nConta {NumConta}, Titular: {NomeTitular}, Saldo: {SaldoInicial}";
+    }
+
+}
 
     }
 
