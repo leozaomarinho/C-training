@@ -25,10 +25,13 @@ namespace Curso
 
                 Console.Write("Entre com o valor do deposito incial:");
                 saldoInicial = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-
+                cliente = new ContaBancaria(numConta, nomeTitular, saldoInicial);
             }
 
-            cliente = new ContaBancaria(numConta, nomeTitular, saldoInicial);
+            else
+            {
+                cliente = new ContaBancaria(numConta, nomeTitular);
+            }
             
             
 

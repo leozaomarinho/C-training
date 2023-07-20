@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.Design;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,7 +12,7 @@ namespace appBanco
     {
         public int NumConta { get; private set; }
         public string NomeTitular { get; set; }
-        public double SaldoInicial { get; private set; };
+        public double SaldoInicial { get; private set; }
 
         public ContaBancaria(int numConta, string nomeTitular)
         {
@@ -41,7 +42,7 @@ namespace appBanco
 
     public override string ToString()
     {
-        return $"Dados Atualizados:\nConta {NumConta}, Titular: {NomeTitular}, Saldo: {SaldoInicial}";
+        return $"Dados Atualizados:\nConta {NumConta}, Titular: {NomeTitular}, Saldo: {SaldoInicial.ToString("F2",CultureInfo.InvariantCulture)}";
     }
 
 }
