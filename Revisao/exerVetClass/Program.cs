@@ -7,80 +7,43 @@ namespace curso
     {
         static void Main(string[] args)
         {
-            int[] quartos = new int[10];
-            
 
-            Console.Write("Quantos estudantes vão alugar quartos:");
+            Cliente[] clientes = new Cliente[10];
+
+            Console.Write("Quantos quartos serão alugados:");
             int n = int.Parse(Console.ReadLine());
 
-            Cliente[] clientes = new Cliente[n];
-
-            for(int i = 0; i < n;i++) {
-
-                int numQuarto = 0;
-                string nome;
-                string email;
 
 
-                    Console.Write("Digite o nome do cliente: ");
-                     nome = Console.ReadLine();
-                    Console.Write("Digite o email do cliente: ");
-                    email = Console.ReadLine();
-
-
-
-                do
-                {
-                    Console.Write("Escolha um quarto de 0 a 9:");
-
-
-                    if (quartos[i] == 0)
-                    {
-                        numQuarto = int.Parse(Console.ReadLine());
-                        quartos[i] = 1;
-
-                        Console.WriteLine("Quarto alugado!");
-
-                    }
-                    else if (quartos[i] != null || quartos[i] !=0)
-                    {
-                        Console.WriteLine($"O quarto {quartos[i]} já esta ocupado!");
-                        Console.WriteLine("Quartos disponíveis: ");
-                        
-                        for(int j = 0; j < quartos.Length; j++)
-                        {
-                            if (quartos[j] == 0)
-                            {
-                                Console.Write($" {quartos[j]} ");
-                            }
-                        }
-
-                    }
-                }
-                while (quartos[i]!=1);
-
-                
-
-                clientes[i] = new Cliente { Nome = nome, Email = email, NumQuarto = numQuarto};
-
-
-                
-
-
-            }
-
-            for (int i = 0; i < quartos.Length; i++)
+            for (int i = 1; i <= n; i++)
             {
 
-                if (clientes[i].NumQuarto < clientes[i + 1].NumQuarto || quartos[i]==1)
+                Console.WriteLine($"Aluguel {i}:");
+
+                Console.Write("Digite o nome do cliente: ");
+                string nome = Console.ReadLine();
+                Console.Write("Digite o email do cliente: ");
+                string email = Console.ReadLine();
+                Console.Write("Quarto: ");
+                int quarto = int.Parse(Console.ReadLine());
+
+                clientes[i] = new Cliente(nome, email);
+
+            }
+
+            Console.WriteLine();
+            Console.WriteLine("Quartos ocupados: ");
+            for (int i = 0; i < 10; i++)
+            {
+                if (clientes[i] != null)
                 {
-                    Console.WriteLine("Quartos alugados: ");
-                    Console.WriteLine($"{clientes[i].NumQuarto} : {clientes[i].Nome}, {clientes[i].Email}");
+                    Console.WriteLine($"{i} : {clientes[i]}");
                 }
 
             }
 
 
-        }
+
         }
     }
+}
