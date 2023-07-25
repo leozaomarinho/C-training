@@ -39,8 +39,10 @@ namespace curso
                         numQuarto = int.Parse(Console.ReadLine());
                         quartos[i] = 1;
 
+                        Console.WriteLine("Quarto alugado!");
+
                     }
-                    else if (quartos[i] == 1)
+                    else if (quartos[i] != null || quartos[i] !=0)
                     {
                         Console.WriteLine($"O quarto {quartos[i]} já esta ocupado!");
                         Console.WriteLine("Quartos disponíveis: ");
@@ -55,7 +57,7 @@ namespace curso
 
                     }
                 }
-                while (quartos[i]!=0);
+                while (quartos[i]!=1);
 
                 
 
