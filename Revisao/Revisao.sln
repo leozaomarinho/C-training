@@ -79,7 +79,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "membrosStaticos", "membrosS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "appBanco", "appBanco\appBanco.csproj", "{13F23E9D-1C6A-42F5-884A-CDDF04F56A21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testeNulls", "testeNulls\testeNulls.csproj", "{D8522133-563A-4EF8-AD39-337781E278A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "testeNulls", "testeNulls\testeNulls.csproj", "{D8522133-563A-4EF8-AD39-337781E278A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exerVetClass", "exerVetClass\exerVetClass.csproj", "{B275F85A-B14F-4E77-AF38-AA5F8F0D4ED7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -243,6 +245,10 @@ Global
 		{D8522133-563A-4EF8-AD39-337781E278A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8522133-563A-4EF8-AD39-337781E278A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8522133-563A-4EF8-AD39-337781E278A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B275F85A-B14F-4E77-AF38-AA5F8F0D4ED7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B275F85A-B14F-4E77-AF38-AA5F8F0D4ED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B275F85A-B14F-4E77-AF38-AA5F8F0D4ED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B275F85A-B14F-4E77-AF38-AA5F8F0D4ED7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
