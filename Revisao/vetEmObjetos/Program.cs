@@ -43,6 +43,7 @@ namespace Curso
                 
                 case 1:
                     Console.WriteLine("Você escolheu listar pessoas:");
+                    Console.WriteLine("--------------------- Pessoas -----------------");
                     ListarPessoas(pessoa);
                     
                     break;
