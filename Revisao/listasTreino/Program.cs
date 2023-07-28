@@ -43,6 +43,8 @@ namespace curso
                         contato.Add(nome);
 
                         Console.WriteLine("Contato cadastrado com sucesso!");
+                        Console.WriteLine("--------------------------------------------------------------");
+
 
 
                         break;
@@ -50,7 +52,20 @@ namespace curso
                         Console.WriteLine();
                         Console.WriteLine("--------------------------------------------------------------");
                         Console.WriteLine("Você escolheu remover um contato!");
+                        Console.WriteLine();
                         Console.Write("Digite o nome do contato que você deseja remover: ");
+                        string nomeRem = Console.ReadLine();
+
+                        contato.Remove(nomeRem);
+                        Console.WriteLine("--------------------------------------------------------------");
+                        Console.WriteLine("Lista de contatos atualizada:");
+
+                        foreach (string nomes in contato)
+                        {
+                            Console.WriteLine(nomes);
+                        }
+
+
 
 
                         break;
@@ -72,6 +87,8 @@ namespace curso
 
             }
             while (option != 0);
+
+            Console.WriteLine("Programa encerrado, até breve!");
 
         }
 
