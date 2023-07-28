@@ -19,6 +19,7 @@ namespace vetEmObjetos
         public override string ToString()
         {
             return $"Nome : {Nome}, Idade: {Idade}, Email: {Email}";
+            
         }
 
        

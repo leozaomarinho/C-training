@@ -12,6 +12,7 @@ namespace Curso
 
             Pessoa[] pessoa = new Pessoa[n];
 
+
             for(int i = 0; i < n; i++)
             {
                 Console.Write("Digite o nome da pessoa: ");
