@@ -89,7 +89,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "listasTreino", "listasTrein
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "matrizQuadra", "matrizQuadra\matrizQuadra.csproj", "{AD5D2E60-1913-4FDC-916C-5004735206A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "matrizProd", "matrizProd\matrizProd.csproj", "{D1FAED79-E1B5-4660-8764-CA85E089F023}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "matrizProd", "matrizProd\matrizProd.csproj", "{D1FAED79-E1B5-4660-8764-CA85E089F023}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "data", "data\data.csproj", "{CCBB6C43-89EB-4A51-B21A-FCD4D99AA9F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -273,6 +275,10 @@ Global
 		{D1FAED79-E1B5-4660-8764-CA85E089F023}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1FAED79-E1B5-4660-8764-CA85E089F023}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1FAED79-E1B5-4660-8764-CA85E089F023}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCBB6C43-89EB-4A51-B21A-FCD4D99AA9F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCBB6C43-89EB-4A51-B21A-FCD4D99AA9F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCBB6C43-89EB-4A51-B21A-FCD4D99AA9F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCBB6C43-89EB-4A51-B21A-FCD4D99AA9F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

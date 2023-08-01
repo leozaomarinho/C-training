@@ -62,7 +62,7 @@ namespace curso
                         int quant = int.Parse(Console.ReadLine());
 
                         Console.WriteLine("Digite o valor do produto: ");
-                        double preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+                        double preco = double.Parse(Console.ReadLine(),CultureInfo.InvariantCulture);
 
                         int i = produtos.Length;
                         produtos[i+1] = new Produto(nome, preco, quant);

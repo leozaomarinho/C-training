@@ -18,7 +18,7 @@ namespace matrizProd
 
         public override string ToString()
         {
-            return $"Nome : {Nome}, Preço: {Preco}, Quantidade: {Quant}";
+            return $"Nome : {Nome}, Preço: {Preco.ToString("F2")}, Quantidade: {Quant}";
         }
 
 
