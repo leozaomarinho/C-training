@@ -17,6 +17,8 @@ namespace curso
             Produto[] produtos = new Produto[n];
 
             for (int i = 0;i<n;i++) {
+                Console.WriteLine("---- Cadastro de produtos ----");
+
                 Console.WriteLine("Digite o nome: ");
                 string nome = Console.ReadLine();
 
@@ -32,6 +34,9 @@ namespace curso
             };
 
             do {
+                Console.WriteLine();
+                Console.WriteLine("---- Menu ----");
+
 
                 Console.WriteLine("O que você deseja fazer:");
                 Console.WriteLine("0 - Sair.");
@@ -48,6 +53,8 @@ namespace curso
                         Console.ReadLine();
                         break;
                     case 1:
+                        Console.WriteLine("---- Cadastro de produtos ----");
+
                         Console.WriteLine("Digite o nome do produto: ");
                         string nome = Console.ReadLine();
 
@@ -62,7 +69,8 @@ namespace curso
                         break;
                         case 2:
 
-                        foreach(Produto prods in produtos)
+                        Console.WriteLine("---- Lista de produtos ----");
+                        foreach (Produto prods in produtos)
                         {
                             Console.WriteLine(prods);
                         }
