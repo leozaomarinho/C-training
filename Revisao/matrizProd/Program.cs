@@ -60,6 +60,14 @@ namespace curso
                         int i = produtos.Length;
                         produtos[i+1] = new Produto(nome, preco, quant);
                         break;
+                        case 2:
+
+                        foreach(Produto prods in produtos)
+                        {
+                            Console.WriteLine(prods);
+                        }
+                        
+                        break;
                 }
 
             } while (option!=0);

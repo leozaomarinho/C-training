@@ -16,6 +16,11 @@ namespace matrizProd
             this.Quant = quant;
         }
 
-        
+        public override string ToString()
+        {
+            return $"Nome : {Nome}, Preço: {Preco}, Quantidade: {Quant}";
+        }
+
+
     }
 }
