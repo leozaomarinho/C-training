@@ -16,11 +16,14 @@ namespace curso
             DateTime d3 = DateTime.Parse("05/08/1998 13:50:58");
             Console.WriteLine($"Data com horario BR {d3}");
 
+            string d4 = d2.ToString("yyyy-MM--dd HH:mm:ss");
+
 
 
             Console.WriteLine(d2.ToLongDateString());
             Console.WriteLine(d2.ToLongTimeString());
             Console.WriteLine(d3.ToShortDateString());
+            Console.WriteLine(d4);
         }
     }
 }
