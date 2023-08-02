@@ -28,6 +28,10 @@ namespace curso
             d1 = d1.AddDays(7);
 
             Console.WriteLine(d1);
+
+            TimeSpan dif = d1.Subtract(d2);
+
+            Console.WriteLine(dif);
         }
     }
 }
