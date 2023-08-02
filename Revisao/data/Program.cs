@@ -24,6 +24,10 @@ namespace curso
             Console.WriteLine(d2.ToLongTimeString());
             Console.WriteLine(d3.ToShortDateString());
             Console.WriteLine(d4);
+
+            d1 = d1.AddDays(7);
+
+            Console.WriteLine(d1);
         }
     }
 }
