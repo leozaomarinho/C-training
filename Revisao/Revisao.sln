@@ -95,7 +95,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "data", "data\data.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "work list", "work list\work list.csproj", "{9CB20D4B-E951-4202-8E2A-FB0AB3965216}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "carrosValor", "carrosValor\carrosValor.csproj", "{9FAB61CD-8F8B-4235-92DB-C72541C294F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "carrosValor", "carrosValor\carrosValor.csproj", "{9FAB61CD-8F8B-4235-92DB-C72541C294F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "enums", "enums\enums.csproj", "{96584D5F-AEA8-4BB8-820E-3791A5701CCA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -291,6 +293,10 @@ Global
 		{9FAB61CD-8F8B-4235-92DB-C72541C294F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FAB61CD-8F8B-4235-92DB-C72541C294F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FAB61CD-8F8B-4235-92DB-C72541C294F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96584D5F-AEA8-4BB8-820E-3791A5701CCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96584D5F-AEA8-4BB8-820E-3791A5701CCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96584D5F-AEA8-4BB8-820E-3791A5701CCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96584D5F-AEA8-4BB8-820E-3791A5701CCA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
