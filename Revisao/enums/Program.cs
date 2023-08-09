@@ -1,5 +1,8 @@
 ﻿using System;
 using System.Xml.Linq;
+using enums.entities;
+using enums.entities.enums;
+
 
 namespace Course
 {
