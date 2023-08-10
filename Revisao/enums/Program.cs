@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Xml.Linq;
+using Curso.entities;
 using enums.entities;
-using enums.entities.enums;
 
 
-namespace Course
+namespace Curso
 {
     class Program
     {

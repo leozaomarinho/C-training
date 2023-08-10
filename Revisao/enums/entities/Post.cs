@@ -1,13 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
-using System.Xml.Linq;
 using enums.entities;
 
 
-namespace enums.entities
+namespace Curso.entities
 {
     class Post
     {
@@ -49,7 +46,7 @@ namespace enums.entities
             sb.AppendLine(Moment.ToString("dd/MM/yyyy HH:mm:ss"));
             sb.AppendLine(Content);
             sb.AppendLine("Comments:");
-            foreach (Comment c in Comments)
+            foreach (Comment c in comments)
             {
                 sb.AppendLine(c.Text);
             }
