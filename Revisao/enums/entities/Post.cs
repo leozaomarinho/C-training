@@ -20,7 +20,7 @@ namespace Curso.entities
         public Post() { 
         }
 
-        public Post(DateTime moment, string title, string content, int likes, List<Comment> comments)
+        public Post(DateTime moment, string title, string content, int likes)
         {
             Moment = moment;
             Title = title;
