@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using enums.entities;
+using Curso.entities;
 
 
 namespace Curso.entities
