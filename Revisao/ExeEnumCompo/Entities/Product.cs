@@ -10,11 +10,11 @@ namespace ExeEnumCompo.Entities
 {
     internal class Product
     {
-        public Double Name { get; set; }
+        public String Name { get; set; }
         public Double Price { get; set; }
 
         public Product() { }
-        public Product(Double name, Double price)
+        public Product(String name, Double price)
         {
             Name = name;
             Price = price;

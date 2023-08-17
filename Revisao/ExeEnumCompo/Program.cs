@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 using ExeEnumCompo.Entities;
 using ExeEnumCompo.Entities.Enums;
 
@@ -41,13 +42,22 @@ namespace ExeEnumCompo
                 string nameProd = Console.ReadLine();
 
                 Console.WriteLine($"Product price: ");
-                double price = double.Parse(Console.ReadLine());
+                double price = double.Parse(Console.ReadLine(),CultureInfo.InvariantCulture);
+
+                Product product = new Product(nameProd,price);
 
                 Console.WriteLine("Quantity: ");
                 int quantity = int.Parse(Console.ReadLine());
 
+                OrderItem orderItem = new OrderItem(quantity,price,product);
+
+                order.AddItem(orderItem);
+
 
             }
+            Console.WriteLine();
+            Console.WriteLine("ORDER SUMMARY");
+            Console.WriteLine(order);
 
 
 
