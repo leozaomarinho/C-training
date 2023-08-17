@@ -5,6 +5,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ExeEnumCompo.Entities.Enums;
+using ExeEnumCompo.Entities;
+
 
 namespace ExeEnumCompo.Entities
 {
@@ -42,8 +44,10 @@ namespace ExeEnumCompo.Entities
             double sum = 0.0;
             foreach (OrderItem item in Items)
             {
-                sum += item.subTotal;
+                sum += item.SubTotal();
             }
+
+            return sum;
         }
 
 

@@ -4,6 +4,8 @@ using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ExeEnumCompo.Entities;
+using ExeEnumCompo.Entities.Enums;
 
 namespace ExeEnumCompo.Entities
 {
@@ -23,14 +25,14 @@ namespace ExeEnumCompo.Entities
             this.Product = product;
         }
 
-        public double subTotal() {
+        public double SubTotal() {
 
             return Price * Quantity;
         }
 
         public override string ToString()
         {
-            $"{Product.Name} , ${Price}, Quantity {Quantity}, Subtotal {Subtotal().ToString("F2",CultureInfo.InvariantCulture)}";
+          return  $"{Product.Name} , ${Price}, Quantity {Quantity}, Subtotal {SubTotal().ToString("F2",CultureInfo.InvariantCulture)}";
         }
     }
 }
