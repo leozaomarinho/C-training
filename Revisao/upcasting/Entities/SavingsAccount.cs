@@ -18,5 +18,10 @@ namespace upcasting.Entities
 
 
         }
+
+        public void UpdateBalance() {
+            Balance += Balance * InterestRate;
+        
+        }
     }
 }
