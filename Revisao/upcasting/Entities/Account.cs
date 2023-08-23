@@ -25,9 +25,10 @@ namespace upcasting.Entities
             Balance = balance;
         }
 
-        public void WithDraw(double amount)
+        public virtual void WithDraw(double amount)
         {
             Balance -= amount;
+            Balance -= 5;
         }
 
         public void Deposit(double amount)

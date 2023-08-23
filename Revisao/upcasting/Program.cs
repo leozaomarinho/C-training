@@ -11,8 +11,17 @@ namespace upcasting
 
             BusinessAccount bAcc = new BusinessAccount(1002,"Maria", 0.0,500.0);
 
+            //UPCASTING
             Account acc1 = bAcc;
             //a variavel do tipo account ela recebe naturalmente um objeto de qualquer subclasse dela, isso é chamado de upcasting
+            Account acc2 =  new BusinessAccount(1003,"Bob",0.0,200.0);
+            //pode criar uma subclasse e atribuir a instanciação para a superclasse.
+            Account acc3 = new SavingsAccount(1004,"Anna",0.0,0.1);
+
+            //DOWNCASTING
+
+            BusinessAccount acc4 = (BusinessAccount)acc2;
+
         }
     }
 }
