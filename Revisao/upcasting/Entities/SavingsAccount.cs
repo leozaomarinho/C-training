@@ -26,7 +26,7 @@ namespace upcasting.Entities
 
         public override void WithDraw(double amount)
         {
-            Balance =-Balance;
+            Balance -=amount;
         }
     }
 }
