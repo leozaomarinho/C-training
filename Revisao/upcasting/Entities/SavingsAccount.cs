@@ -27,6 +27,8 @@ namespace upcasting.Entities
         public override void WithDraw(double amount)
         {
             Balance -=amount;
+
+            base.Deposit(amount);
         }
     }
 }

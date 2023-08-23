@@ -24,7 +24,7 @@ namespace upcasting
 
             acc1.WithDraw(10);
 
-            acc3.WithDraw(10);
+            acc3.WithDraw(8);
 
             Console.WriteLine(acc1.Balance);
 
