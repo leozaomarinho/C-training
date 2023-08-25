@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PagamantoFunc.Entities
 {
-    internal class OutsourcedEmployee
+    internal class OutsourcedEmployee 
     {
 
         

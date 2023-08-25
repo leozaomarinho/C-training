@@ -15,6 +15,18 @@ namespace PagamantoFunc.Entities
         public double ValuePerHour { get; set; }
 
 
+       
+        public Employees() { 
+        
+        }
+
+        public Employees(string name, int hour, double valuePerHour)
+        {
+            Name = name;
+            Hour = hour;
+            ValuePerHour = valuePerHour;
+        }
+
         public void Payment()
         {
             double pay = ValuePerHour * Hour;
