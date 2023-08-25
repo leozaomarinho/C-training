@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace PagamantoFunc.Entities
 {
-    internal class Employees
+    internal class Employes
     {
         public string Name { get; set; }
         public int Hour { get; set; }
@@ -16,22 +16,22 @@ namespace PagamantoFunc.Entities
 
 
        
-        public Employees() { 
+        public Employes() { 
         
         }
 
-        public Employees(string name, int hour, double valuePerHour)
+        public Employes(string name, int hour, double valuePerHour)
         {
             Name = name;
             Hour = hour;
             ValuePerHour = valuePerHour;
         }
 
-        public void Payment()
+        public virtual double Payment()
         {
             double pay = ValuePerHour * Hour;
 
-            Console.WriteLine(pay.ToString("F2",CultureInfo.InvariantCulture));
+            return pay;
 
         }
     }
