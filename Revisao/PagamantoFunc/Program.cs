@@ -28,10 +28,30 @@ namespace Pagamento
 
                 Console.Write("Value per hour: ");
                 double valuePerHour = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture) ;
+
+                if (ch == 'y')
+                {
+                    Console.Write("Additional charge: ");
+                    double additionalCharge = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+                    list.Add(new OutsourcedEmploye(name,hours,valuePerHour,additionalCharge));
+                }
+                else
+                {
+                    list.Add(new Employes(name,hours,valuePerHour));
+                }
+            }
+            Console.WriteLine();
+            Console.WriteLine("Payments: ");
+            foreach(Employes employes in list)
+            {
+                
+                    Console.WriteLine($"{employes.Name} - $ {employes.Payment().ToString("F2",CultureInfo.InvariantCulture)}");
+                
             }
 
-            Console.WriteLine("Payments: ");
-        
+
+
 
 
         }
