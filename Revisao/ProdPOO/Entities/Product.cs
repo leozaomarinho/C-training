@@ -19,9 +19,10 @@ namespace ProdPOO.Entities
             Price = price;
         }
 
-        public void PriceTag() { 
-        
-        
+        public virtual void PriceTag() {
+
+            Console.WriteLine($"{Name} - ${Price}");
+
         }
     }
 }
