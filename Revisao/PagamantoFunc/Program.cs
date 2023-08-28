@@ -40,10 +40,13 @@ namespace Pagamento
                 {
                     list.Add(new Employes(name,hours,valuePerHour));
                 }
+                Console.WriteLine("--------------------------------------------------");
             }
-            Console.WriteLine();
+            
             Console.WriteLine("Payments: ");
-            foreach(Employes employes in list)
+            Console.WriteLine("--------------------------------------------------");
+
+            foreach (Employes employes in list)
             {
                 
                     Console.WriteLine($"{employes.Name} - $ {employes.Payment().ToString("F2",CultureInfo.InvariantCulture)}");
