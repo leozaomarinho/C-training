@@ -18,9 +18,14 @@ namespace ProdPOO.Entities
             CustomsFee = customsFee;
         }
 
-        public sealed override void PriceTag()
+        public  override string PriceTag()
         {
-            Console.WriteLine($"{Name} - ${Price} (Customs fee: ${CustomsFee})");
+           return $"{Name} - ${TotalPrice().ToString("F2")} (Customs fee: ${CustomsFee})";
+        }
+
+        public double TotalPrice()
+        {
+            return Price + CustomsFee;
         }
     }
 }

@@ -31,7 +31,7 @@ namespace prod
 
                     products.Add(new Product(name,price));
                 }
-                else if (p == 'u') {
+                else if (p == 'i') {
 
                     Console.Write("Name: ");
                     string name = Console.ReadLine();
@@ -45,9 +45,30 @@ namespace prod
                     products.Add(new ImportedProduct(name, price,customsF));
 
                 }
-                
 
-               
+                else
+                {
+                    Console.Write("Name: ");
+                    string name = Console.ReadLine();
+
+                    Console.Write("Price: ");
+                    double price = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+                    Console.Write("Manufacture date (DD/MM/YYYY): ");
+                    DateTime date = DateTime.Parse(Console.ReadLine());
+
+                    products.Add(new UsedProduct(name, price, date));
+                }
+
+            }
+
+            Console.WriteLine("----------------------------------------");
+
+            Console.WriteLine("Price Tag:");
+            foreach (Product list in products)
+            {
+
+                Console.WriteLine(list.PriceTag());
             }
         }
     }

@@ -18,9 +18,9 @@ namespace ProdPOO.Entities
             ManufactureDate = manufactureDate;
         }
 
-        public override void PriceTag()
+        public override string PriceTag()
         {
-            Console.WriteLine($"{Name} (Used) ${Price} - (Manufacture date: {ManufactureDate})");
+            return $"{Name} (Used) ${Price} - (Manufacture date: {ManufactureDate})";
         }
 
     }
