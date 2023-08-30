@@ -9,11 +9,14 @@ namespace abstracao.Entities
 {
     internal class Shape
     {
-        public Color Color { get; set; }
+        public Color color { get; set; }
 
 
-        public double Area() {
-            return $"Leonardo";
+        public Shape() { }
+
+        public Shape(Color color) { }
+        public virtual double Area(double area) {
+            return area;
         }
     }
 }
