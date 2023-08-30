@@ -105,7 +105,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "upcasting", "upcasting\upca
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PagamantoFunc", "PagamantoFunc\PagamantoFunc.csproj", "{AC6D1F6F-4F96-4E77-B50B-F3BEFAA94AEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProdPOO", "ProdPOO\ProdPOO.csproj", "{0D02F3D8-6964-482B-B369-A7C7A44DB99C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProdPOO", "ProdPOO\ProdPOO.csproj", "{0D02F3D8-6964-482B-B369-A7C7A44DB99C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "abstracao", "abstracao\abstracao.csproj", "{2D15A998-E0C6-4D21-ACD3-BF2CB9393EF1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -321,6 +323,10 @@ Global
 		{0D02F3D8-6964-482B-B369-A7C7A44DB99C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D02F3D8-6964-482B-B369-A7C7A44DB99C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D02F3D8-6964-482B-B369-A7C7A44DB99C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D15A998-E0C6-4D21-ACD3-BF2CB9393EF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D15A998-E0C6-4D21-ACD3-BF2CB9393EF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D15A998-E0C6-4D21-ACD3-BF2CB9393EF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D15A998-E0C6-4D21-ACD3-BF2CB9393EF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
