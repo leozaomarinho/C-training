@@ -8,8 +8,8 @@ namespace abstracao.Entities.Enum
 {
     enum Color
     {
-         BLACK =0,
-         BLUE =1,
-         RED =2,
+         Black =0,
+         Blue =1,
+         Red =2,
     }
 }

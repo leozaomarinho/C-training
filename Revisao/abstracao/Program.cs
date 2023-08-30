@@ -46,6 +46,14 @@ namespace abstracao
                 else {
                     Console.WriteLine("Opção invalida!");
                 }
+
+
+            }
+
+            Console.WriteLine("SHAPRE AREAS:");
+            foreach (Shape shape in shapes)
+            {
+                Console.WriteLine($"{shape.Area().ToString("F2")}");
             }
 
         }
