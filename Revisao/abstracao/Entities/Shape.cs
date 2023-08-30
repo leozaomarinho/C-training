@@ -7,16 +7,17 @@ using System.Threading.Tasks;
 
 namespace abstracao.Entities
 {
-    internal class Shape
+    abstract class Shape
     {
-        public Color color { get; set; }
+        public Color Color { get; set; }
 
 
-        public Shape() { }
-
-        public Shape(Color color) { }
-        public virtual double Area(double area) {
-            return area;
+        public Shape() {
+        
         }
+
+        public Shape(Color Color) { }
+        public abstract double Area(); 
+        //o abstract já sinaliza que o metodo vai ter que ser implementado em outra classe que herde
     }
 }
