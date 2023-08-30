@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace abstracao.Entities.Enum
 {
-    internal class Color
+    enum Color
     {
+         BLACK =0,
+         BLUE =1,
+         RED =2,
     }
 }
