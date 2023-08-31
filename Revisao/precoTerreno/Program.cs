@@ -25,9 +25,11 @@ namespace Program {
 
             Console.WriteLine("Total da area do terreno: " + area.ToString("F2", CultureInfo.InvariantCulture));
             Console.WriteLine("Valor total do terreno: " + valorTerreno.ToString("F2", CultureInfo.InvariantCulture));
+            Console.WriteLine("Alterando para teste");
+
 
         }
     }
-
+   
 
 }
