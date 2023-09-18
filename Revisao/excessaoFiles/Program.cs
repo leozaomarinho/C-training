@@ -1,0 +1,26 @@
+﻿using System;
+namespace Excessao
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //armazenando o arquivo original e copia em variavel para passar como parametro
+            string sourcePath = @"C:\Users\leozao\Downloads\file1.txt";
+            string targetPath = @"C:\Users\leozao\Downloads\file2.txt";
+
+            try
+            {
+                FileInfo fileInfo = new FileInfo(sourcePath);
+                fileInfo.CopyTo(targetPath);
+
+                Console.WriteLine("Copia realizada com sucesso!");
+
+            }
+            catch(IOException e){
+                Console.WriteLine("Ocorreu um erro: ");
+                Console.WriteLine(e.Message);
+            }
+        }
+    }
+}
