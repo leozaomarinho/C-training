@@ -12,9 +12,16 @@ namespace Excessao
             try
             {
                 FileInfo fileInfo = new FileInfo(sourcePath);
-                fileInfo.CopyTo(targetPath);
+                //fileInfo.CopyTo(targetPath);
 
-                Console.WriteLine("Copia realizada com sucesso!");
+                string[] lines = File.ReadAllLines(sourcePath);
+                //mandando ler o arquivo que esta no caminho da variavel source path e salvando em um array
+
+                foreach (string line in lines)
+                {
+                    Console.WriteLine(line);
+                    Console.WriteLine(line.Length);
+                }
 
             }
             catch(IOException e){
