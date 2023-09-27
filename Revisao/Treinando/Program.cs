@@ -19,6 +19,22 @@ namespace Treinando
 
             Console.WriteLine("Qual o seu CPF? ");
             int cpf = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Você possui filhos? s/n");
+            char filhos = char.Parse(Console.ReadLine());
+
+            if (filhos == 's')
+            {
+                Console.WriteLine("Nome do filho: ");
+                string nomeFilho = Console.ReadLine();
+
+                pessoas.Add(new Filho(nomeFilho, sobrenome, cpf, nome));
+
+
+                pessoas.Add(new Filho())
+            }
+
+
         }
     }
 }
