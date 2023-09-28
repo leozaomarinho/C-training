@@ -113,7 +113,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "excessaoFiles", "excessaoFi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AtividadeFiles", "AtividadeFiles\AtividadeFiles.csproj", "{0A66FD5F-0E60-4B91-A58B-587560B4516E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Treinando", "Treinando\Treinando.csproj", "{BC3B2C0E-E9F9-4068-B9A4-AE9846548B7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Treinando", "Treinando\Treinando.csproj", "{BC3B2C0E-E9F9-4068-B9A4-AE9846548B7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "usingInterfaces", "usingInterfaces\usingInterfaces.csproj", "{D60B734B-5E02-4E13-BED4-D612D2B8D70D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -345,6 +347,10 @@ Global
 		{BC3B2C0E-E9F9-4068-B9A4-AE9846548B7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC3B2C0E-E9F9-4068-B9A4-AE9846548B7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC3B2C0E-E9F9-4068-B9A4-AE9846548B7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D60B734B-5E02-4E13-BED4-D612D2B8D70D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D60B734B-5E02-4E13-BED4-D612D2B8D70D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D60B734B-5E02-4E13-BED4-D612D2B8D70D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D60B734B-5E02-4E13-BED4-D612D2B8D70D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
