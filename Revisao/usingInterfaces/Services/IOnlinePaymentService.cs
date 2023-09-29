@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace usingInterfaces.Services
 {
-    internal class IOnlinePaymentService
+    interface IOnlinePaymentService
     {
+
+        double PaymentFee(double amount);
+
+        double Interest(double amount, int months);
     }
 }

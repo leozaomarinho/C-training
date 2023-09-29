@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace usingInterfaces.Services
 {
-    internal class ContractService
+     class ContractService
     {
+
+        private IOnlinePaymentService _onlinePaymentService;
+
+        public ContractService(IOnlinePaymentService onlinePaymentService)
+        {
+            _onlinePaymentService = onlinePaymentService;
+        }
     }
 }
