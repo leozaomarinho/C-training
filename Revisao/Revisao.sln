@@ -115,7 +115,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AtividadeFiles", "Atividade
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Treinando", "Treinando\Treinando.csproj", "{BC3B2C0E-E9F9-4068-B9A4-AE9846548B7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "usingInterfaces", "usingInterfaces\usingInterfaces.csproj", "{D60B734B-5E02-4E13-BED4-D612D2B8D70D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsingInterfaces", "usingInterfaces\UsingInterfaces.csproj", "{D60B734B-5E02-4E13-BED4-D612D2B8D70D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

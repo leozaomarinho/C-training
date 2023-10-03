@@ -1,4 +1,4 @@
-﻿
+﻿using System.Collections.Generic;
 namespace usingInterfaces.Entities
 {
      class Contract
