@@ -26,7 +26,17 @@ namespace usingInterfaces
             Contract myContract = new Contract(contractNumber, contractDate, contractValue);
 
             ContractService contractService = new ContractService(new PaypalService());
-            
+
+            contractService.ProcessContract(myContract, months);
+
+            Console.WriteLine("Installments:");
+            foreach(Installment installment in myContract.Installments)
+            {
+                Console.WriteLine(installment);
+            }
+
+
+
         }
     }
 }
