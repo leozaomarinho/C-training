@@ -1,5 +1,4 @@
-﻿
-namespace usingInterfaces.Entities
+﻿namespace usingInterfaces.Entities
 {
      class Contract
     {

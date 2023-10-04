@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 
 namespace usingInterfaces.Services
 {
-     class PaypalService
+     class PaypalService : IOnlinePaymentService
     {
 
         private const double FeePercentage = 0.02;
