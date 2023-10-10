@@ -117,6 +117,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Treinando", "Treinando\Trei
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsingInterfaces", "usingInterfaces\UsingInterfaces.csproj", "{D60B734B-5E02-4E13-BED4-D612D2B8D70D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pratica10102023", "Pratica10102023\Pratica10102023.csproj", "{17DCEEF5-F04C-4409-A6F0-66C7A9008CD7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -351,6 +353,10 @@ Global
 		{D60B734B-5E02-4E13-BED4-D612D2B8D70D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D60B734B-5E02-4E13-BED4-D612D2B8D70D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D60B734B-5E02-4E13-BED4-D612D2B8D70D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17DCEEF5-F04C-4409-A6F0-66C7A9008CD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17DCEEF5-F04C-4409-A6F0-66C7A9008CD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17DCEEF5-F04C-4409-A6F0-66C7A9008CD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17DCEEF5-F04C-4409-A6F0-66C7A9008CD7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
