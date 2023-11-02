@@ -11,25 +11,24 @@ namespace Pratica10102023.Entities
         public string Nome { get; set; }
         public double Preco { get; set; }
 
-        public int Quantidade { get; set; }
 
 
         public Produto()
         {
         }
 
-        public Produto(string nome, double preco, int quantidade)
+        public Produto(string nome, double preco)
         {
             this.Nome = nome;
             this.Preco = preco;
-            this.Quantidade = quantidade;
+          
 
         }
 
 
         public override string ToString()
         {
-            return $"Nome: {Nome} , Valor : {Preco} , Quantidade disponível: {Quantidade}";
+            return $"Nome: {Nome} , Valor : {Preco}";
         }
 
     }
