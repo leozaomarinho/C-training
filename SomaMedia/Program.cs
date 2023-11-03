@@ -1,8 +1,9 @@
 ﻿using System;
 
 using System;
-
+using System.Linq;
 using SomaMedia.Entities;
+using System.Collections.Generic;
 
 namespace SomaMedia
 {
@@ -37,6 +38,12 @@ namespace SomaMedia
 
 
                 Console.WriteLine($"A soma dos valores é {soma} e a média é {media}");
+
+                Console.WriteLine("Valores adicionados a lista:");
+                foreach (List<Nums> num in nums)
+                {
+                    Console.Write(num);
+                }
             }
 
             else
