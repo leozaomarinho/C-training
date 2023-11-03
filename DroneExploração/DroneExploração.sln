@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DroneExploração", "DroneExploração.csproj", "{CFDA1682-9726-40F3-BAAE-195B9147465E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFDA1682-9726-40F3-BAAE-195B9147465E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFDA1682-9726-40F3-BAAE-195B9147465E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFDA1682-9726-40F3-BAAE-195B9147465E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFDA1682-9726-40F3-BAAE-195B9147465E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {34DB7BE1-EBAD-41B4-82D6-BFEAFFB672A5}
+	EndGlobalSection
+EndGlobal

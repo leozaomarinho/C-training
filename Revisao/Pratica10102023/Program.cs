@@ -1,5 +1,7 @@
 ﻿using Pratica10102023.Entities;
 using System;
+using System.Collections.Generic;
+
 
 namespace Pratica10102023
 {
@@ -50,7 +52,7 @@ namespace Pratica10102023
                     {
                         foreach (Produto prod in produto)
                         {
-                            Console.WriteLine(produto.ToString);
+                            Console.WriteLine(produto);
                         }
                     }
 
