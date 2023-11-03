@@ -11,40 +11,61 @@ namespace Pratica10102023
 
             try
             {
-                int option = 0;
 
-                Console.WriteLine("-- MENU --");
-                Console.WriteLine("1 - Cadastrar produto.");
-                Console.WriteLine("2 - Registrar venda.");
-                Console.WriteLine("3 - Verificar vendas.");
-                Console.WriteLine("4 - Listar produtos.");
+                int option = 10;
 
-                option = int.Parse(Console.ReadLine());
-
-                if (option == 1)
+                while (option != 0)
                 {
-                    Console.WriteLine();
-                    Console.WriteLine("Você escolheu cadastrar um produto");
-                    Console.WriteLine();
 
-                    Console.Write("Digite o nome do produto: ");
-                    string nome = Console.ReadLine();
 
-                    Console.Write("Digite o valor do produto: ");
-                    double valor = double.Parse(Console.ReadLine());
 
-                    Console.Write("Digite a quantidade do produto: ");
-                    int quant = int.Parse(Console.ReadLine());
+                    Console.WriteLine("-- MENU --");
+                    Console.WriteLine("1 - Cadastrar produto.");
+                    Console.WriteLine("2 - Registrar venda.");
+                    Console.WriteLine("3 - Verificar vendas.");
+                    Console.WriteLine("4 - Listar produtos.");
+                    Console.WriteLine("0 - Sair.");
 
-                    produto.Add(new Produto());
+                    option = int.Parse(Console.ReadLine());
+
+                    if (option == 1)
+                    {
+                        Console.WriteLine();
+                        Console.WriteLine("Você escolheu cadastrar um produto");
+                        Console.WriteLine();
+
+                        Console.Write("Digite o nome do produto: ");
+                        string nome = Console.ReadLine();
+
+                        Console.Write("Digite o valor do produto: ");
+                        double valor = double.Parse(Console.ReadLine());
+
+                        Console.Write("Digite a quantidade do produto: ");
+                        int quant = int.Parse(Console.ReadLine());
+
+                        produto.Add(new Produto(nome, valor));
+                    }
+
+                    else if (option == 4)
+                    {
+                        foreach (Produto prod in produto)
+                        {
+                            Console.WriteLine(produto.ToString);
+                        }
+                    }
+
                 }
+            }
 
+
+
+
+
+            catch
+            {
 
             }
 
-            catch {
-            
-            }
 
 
         }
