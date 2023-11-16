@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "provaLogica", "provaLogica.csproj", "{307B7245-E51C-4A47-8B4C-762B75955B61}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exer1.2", "..\exer1.2\exer1.2.csproj", "{C38E7657-33B8-4323-8724-3AFE8AE58AA0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{307B7245-E51C-4A47-8B4C-762B75955B61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{307B7245-E51C-4A47-8B4C-762B75955B61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{307B7245-E51C-4A47-8B4C-762B75955B61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C38E7657-33B8-4323-8724-3AFE8AE58AA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C38E7657-33B8-4323-8724-3AFE8AE58AA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C38E7657-33B8-4323-8724-3AFE8AE58AA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C38E7657-33B8-4323-8724-3AFE8AE58AA0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
